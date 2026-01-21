@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="library.js"></script>
+</head>
+<body>
+    <script>
+        function moveOn() {
+            var answer = confirm("Vamos avançar nos estudos?");
+            if (answer) {
+                window.location = "exercicio03.html";
+            } else {
+                alert("Tudo bem, volte quando estiver pronto!");
+            }
+        }
+        setTimeout(moveOn, 2000);
+    </script>
+    
+</body>
+</html>
